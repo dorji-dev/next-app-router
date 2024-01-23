@@ -19,7 +19,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@lib/hooks": ["./src/lib/hooks/index.ts"],
+      "@lib/models": ["./src/lib/models/index.ts"],
+      "@lib/state": ["./src/lib/state/index.ts"],
+      "@lib/util": ["./src/lib/util/index.ts"],
+      "@components/*": ["./src/components/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
